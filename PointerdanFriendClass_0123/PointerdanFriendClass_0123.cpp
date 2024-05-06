@@ -5,9 +5,17 @@ class mahasiswa
 {
 	public:
 	int nim;
-	void shownim()
+	void showNim()
 	{
 		cout << "No Induk = " << nim << endl;
 	}
 };
 
+int main()
+{
+	mahasiswa mhs{ 1 }; //Obejct mhs
+	mhs.showNim();	//Member acces operator
+
+	
+
+}
